@@ -1,4 +1,7 @@
 package br.com.produtos;
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.management.RuntimeErrorException;
 
 import br.com.livraria.*;
@@ -9,6 +12,7 @@ public abstract class Livro implements Produto {
 	private double valor;
 	private String isbn;
 	private Autor autor;
+	
 	
 	public Livro(Autor autor) {
 		
@@ -61,6 +65,7 @@ public abstract class Livro implements Produto {
 	public void setAutor(Autor autor) {
 		this.autor = autor;
 	}
+	
 
 	@Override
 	public String toString() {
@@ -72,9 +77,6 @@ public abstract class Livro implements Produto {
 		+ autor.toString()
 		
 		+"\n-----------------------------------";
-		
-		
-	
 	}
 	
 	

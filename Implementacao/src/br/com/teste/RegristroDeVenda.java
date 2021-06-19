@@ -34,13 +34,20 @@ public class RegristroDeVenda {
 			System.out.println(produto);
 		}
 		
+		System.out.println("\nValor total do carrinho R$ "+carrinho.getTotal());
+		
+		
 		carrinho.remove(1);
+		carrinho.remove(ebook);
+		
 		
 		System.out.println("\n\nRemovendo um livro do carrinho de compra\n\n");
 		
 		for(Produto produto : produtos) {
 			System.out.println(produto);
 		}
+		
+		System.out.println("\nValor total do carrinho R$ "+carrinho.getTotal());
 		
 	}
 

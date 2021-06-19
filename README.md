@@ -1,22 +1,23 @@
 Henrique Oliveira de Amorim - 1840481912052
 Raphael Amaral Budin - 1840481922025
 
+---------------------
 Descrição do Projeto:
+---------------------
 
-Sistema de e-commerce genérico, incluindo documentação, requisitos e desenvolvimento do código
+Sistema de e-commerce genérico, incluindo documentação, requisitos e desenvolvimento do código.
 
 
 
-Informações do trabalho:
 
 ----------------------------
 Trabalho final da disciplina
 ----------------------------
+Instruções fornecidas pelo professor para realização do presente trabalho:
 
 - O trabalho deverá ser desenvolvido em duplas (máximo);
 - Os diagramas e respostas não devem ser copiados de nenhum lugar;
 - O tema deve ser escolhido pela dupla considerando um cenário com possibilidade real;
-
 - O trabalho deverá ser submetido por meio de um repositório Git com as seguintes pastas:
 [] negocio
    Nesta pasta, o grupo deverá gravar o (1) Documento de Visão de Negócio (visao_negocio.doc). As imagens deverão ser colocadas dentro do documento e também disponibilizadas no formato de arquivo PNG (em boa resolução) ou PDF;
